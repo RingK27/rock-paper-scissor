@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-prompt">
+            <p id="instructions">ciao, you want to play a game of "Rock Paper Scissor?"<br>
+            if so, please enter "1" for rock, "2" for paper, "3" for Scissors<br>
+            use this box >>>>> <input type="text" id="playerChoice" name="playerChoice"><br>
+            then click this button >>>>> <button type="button" class="playBtn" onclick="playRound()">Let's Play!</button></p>
+        </div>
+        <div class="results">            
+            <p id="round-1"></p>
+            <p id="round-2"></p>
+            <p id="round-3"></p>
+            <p id="round-4"></p>
+            <p id="round-5"></p><br><br>
+            <p id="result"></p>            
+        </div>
+    </div>
+    <script src="scripts.js"></script>    
+</body>
+</html>

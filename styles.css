@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Silkscreen', cursive;
+    outline: 0px;
+}
+.game-container {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 1080px;
+    flex-direction: column;    
+}
+.playBtn {
+    background-color: black;
+    border: 2px solid aliceblue;
+    border-radius: 10px;    
+    color: aliceblue;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;    
+}
+.playBtn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+}
+.results {
+    padding-top: 50px;
+    color: brown;    
+}
+#playerChoice {   
+   width: 30px;
+   border: 2px solid white;
+   background-color: black;
+   color:aliceblue;
+   text-align: center;
+}
+#result {
+    color:burlywood; 
+}
