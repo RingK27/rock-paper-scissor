@@ -31,13 +31,13 @@ function playRound() {
         let resultStr = "";
         let refreshStr = '<br><br><button type="button" class="playBtn" onclick="location.reload()">Restart</button>';
         if (playerWins > computerWins) {
-            resultStr = "player won " + playerWins + " times, computer won " + computerWins + " <strong>player wins</strong>!!!"
+            resultStr = "player won " + playerWins + " times, computer won " + computerWins + " times, <strong>player wins</strong>!!!"
             document.getElementById("result").innerHTML = resultStr + refreshStr;     
         } else if (computerWins > playerWins) {
-            resultStr = "player won " + playerWins + " times, computer won " + computerWins + " <strong>computer wins</strong>!!!"
+            resultStr = "player won " + playerWins + " times, computer won " + computerWins + " times, <strong>computer wins</strong>!!!"
             document.getElementById("result").innerHTML = resultStr + refreshStr;  
         } else {
-            resultStr = "player won " + playerWins + " times, computer won " + computerWins + " it's a <strong>draw...</strong>"
+            resultStr = "player won " + playerWins + " times, computer won " + computerWins + " times, it's a <strong>draw...</strong>"
             document.getElementById("result").innerHTML = resultStr + refreshStr;   
         }
     } else {    
