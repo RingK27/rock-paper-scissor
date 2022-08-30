@@ -14,9 +14,25 @@
     <div class="game-container">
         <div class="game-prompt">
             <p id="instructions">ciao, you want to play a game of "Rock Paper Scissor?"<br>
-            if so, please enter "1" for rock, "2" for paper, "3" for Scissors<br>
-            use this box >>>>> <input type="text" id="playerChoice" name="playerChoice"><br>
-            then click this button >>>>> <button type="button" class="playBtn" onclick="playRound()">Let's Play!</button></p>
+            if so, pick either rock, paper of scissor and computer will fight you! at<br>
+            the end of round 5 we will have a winner (or a draw)!</p>
+        </div>
+        <div class = "game-content">
+            <div class="human">
+                <div>
+                    <img src=".\images\rock.png" width="100">
+                    <img src=".\images\paper.png"  width="100">
+                    <img src=".\images\scissors.png" width="100">
+                </div>
+            </div>
+            <div class="vs"><p>---human--- VS -computer-</p></div>
+            <div class="cpu">
+                <div>
+                    <img src=".\images\rock.png" width="100">
+                    <img src=".\images\paper.png"  width="100">
+                    <img src=".\images\scissors.png" width="100">
+                </div>
+            </div>
         </div>
         <div class="results">            
             <p id="round-1"></p>
