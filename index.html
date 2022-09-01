@@ -19,18 +19,25 @@
         </div>
         <div class = "game-content">
             <div class="human">
-                <div>
-                    <img src=".\images\rock.png" width="100">
-                    <img src=".\images\paper.png"  width="100">
-                    <img src=".\images\scissors.png" width="100">
+                <div class="choice-container">
+                    <img id="rockh" class="choice man"src=".\images\rock.png" role="button" 
+                        onclick="playRound('rock')">
+                    <img id="paperh" class="choice man" src=".\images\paper.png" role="button" 
+                        onclick="playRound('paper')">
+                    <img id="scissorh" class="choice man" src=".\images\scissors.png" role="button" 
+                        onclick="playRound('scissor')">
                 </div>
             </div>
-            <div class="vs"><p>---human--- VS -computer-</p></div>
+            <div class="vs">
+                <p>human<br>
+                <strong>VS</strong><br>
+                computer</p>
+            </div>
             <div class="cpu">
-                <div>
-                    <img src=".\images\rock.png" width="100">
-                    <img src=".\images\paper.png"  width="100">
-                    <img src=".\images\scissors.png" width="100">
+                <div class="choice-container">
+                    <img id="rock" class="choice" src=".\images\rock.png">
+                    <img id="paper" class="choice" src=".\images\paper.png">
+                    <img id="scissor" class="choice" src=".\images\scissors.png">
                 </div>
             </div>
         </div>
